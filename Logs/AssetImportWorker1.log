@@ -15,7 +15,7 @@ C:/Users/andre/OneDrive/Documents/GitHub/11-particles-AndrewDaSilva11
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-65368
+53332
 Successfully changed project path to: C:/Users/andre/OneDrive/Documents/GitHub/11-particles-AndrewDaSilva11
 C:/Users/andre/OneDrive/Documents/GitHub/11-particles-AndrewDaSilva11
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/andre/OneDrive/Documents/GitHub/11-particles-AndrewDaSilva11
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 80.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 88.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011219 seconds.
+Registered in 0.011392 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 81.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 73.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.759 seconds
+- Completed reload, in  0.691 seconds
 Domain Reload Profiling:
-	ReloadAssembly (759ms)
-		BeginReloadAssembly (92ms)
+	ReloadAssembly (691ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (513ms)
-			LoadAssemblies (89ms)
+		EndReloadAssembly (482ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (139ms)
+			SetupTypeCache (115ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (291ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (283ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (82ms)
+				RefreshPlugins (74ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (149ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007275 seconds.
+Registered in 0.008171 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\andre\OneDrive\Documents\GitHub\11-particles-AndrewDaSilva11\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\andre\OneDrive\Documents\GitHub\11-particles-AndrewDaSilva11\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.067 seconds
+- Completed reload, in  1.125 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1068ms)
-		BeginReloadAssembly (122ms)
+	ReloadAssembly (1126ms)
+		BeginReloadAssembly (140ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (824ms)
-			LoadAssemblies (89ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (861ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (252ms)
+			SetupTypeCache (241ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (396ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (424ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (254ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3403 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 37 unused Assets / (1.3 MB). Loaded Objects now: 3851.
 Memory consumption went from 123.9 MB to 122.6 MB.
-Total: 5.081800 ms (FindLiveObjects: 0.286500 ms CreateObjectMapping: 0.208300 ms MarkObjects: 4.271400 ms  DeleteObjects: 0.314000 ms)
+Total: 3.107100 ms (FindLiveObjects: 0.280800 ms CreateObjectMapping: 0.216600 ms MarkObjects: 2.359400 ms  DeleteObjects: 0.249500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,323 +162,163 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 337.592330 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(a99ce00d4ed0fbc4fb20c4b7b8e4cb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(a99ce00d4ed0fbc4fb20c4b7b8e4cb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f5869455c170e4fe36f1b35f6c8610') in 0.058962 seconds 
+  Time since last request: 553.002772 seconds.
+  path: Assets/EffectExamples/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7418b3ce91d378a7d5afcfa1c93356') in 0.045113 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/EffectExamples/Readme.asset
-  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca2b3a3fe62ec43dcb46ffe6ac8490d') in 0.010486 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.791199 seconds.
-  path: Assets/EffectExamples/Blood/Prefabs/BloodSprayEffect.prefab
-  artifactKey: Guid(abb9f519b142e304d9c45b56afa768bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Blood/Prefabs/BloodSprayEffect.prefab using Guid(abb9f519b142e304d9c45b56afa768bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a05eb6bb854d3d05c026bfd3e1e3148') in 0.412652 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactStoneEffect.prefab
-  artifactKey: Guid(4edabb1c0dde62743b137378c7d22980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactStoneEffect.prefab using Guid(4edabb1c0dde62743b137378c7d22980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f4a0972e946070e9ac3d430e6cc487') in 0.581670 seconds 
+  Time since last request: 40.815278 seconds.
+  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ExposureHistogram.compute
+  artifactKey: Guid(8c2fcbdf9bc58664f89917f7b9d79501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ExposureHistogram.compute using Guid(8c2fcbdf9bc58664f89917f7b9d79501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348fbedd6535d3dc25136e6c30931f1c') in 0.023675 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000031 seconds.
-  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/SmokeEffect.prefab
-  artifactKey: Guid(85a8865d1bf4a63478038fae23776de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/SmokeEffect.prefab using Guid(85a8865d1bf4a63478038fae23776de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974ae36ba588ac7432147ae7bea5b9ca') in 0.073661 seconds 
+  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute
+  artifactKey: Guid(4c63bc487e6c29a4a99f85a6c47b292b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute using Guid(4c63bc487e6c29a4a99f85a6c47b292b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79717ffddc709c671fb7fe9309134ca3') in 0.008655 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/WallFlames.prefab
-  artifactKey: Guid(2c7e85f4b03483447a66947c83fb7468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/WallFlames.prefab using Guid(2c7e85f4b03483447a66947c83fb7468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35cef724dda1214e1a1822645d6df30') in 0.364678 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/EffectExamples/Misc Effects/Prefabs/SparksEffect.prefab
-  artifactKey: Guid(78b71003e8b357d4bbf89c8b5e5e4f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Misc Effects/Prefabs/SparksEffect.prefab using Guid(78b71003e8b357d4bbf89c8b5e5e4f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de33187aa22d5a4f024d0b3734892b1') in 0.280359 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/EffectExamples/Shared/PhysicsMaterials/Stone.physicMaterial
-  artifactKey: Guid(7509f6c6d640a774f9dfaa8af8658a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Shared/PhysicsMaterials/Stone.physicMaterial using Guid(7509f6c6d640a774f9dfaa8af8658a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f4f313ce6378c4ba988ba0dbe29995') in 0.005984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/EffectExamples/WaterEffects/Prefabs/StormCloudEffect.prefab
-  artifactKey: Guid(ca55dd9d7d291014a8b13aaf95318a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WaterEffects/Prefabs/StormCloudEffect.prefab using Guid(ca55dd9d7d291014a8b13aaf95318a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb137f5c44c0847ebdd09efd941dad8') in 0.031160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/EffectExamples/Shared/Models/FPSWeapon.fbx
-  artifactKey: Guid(47509307932d1e140a2b4d9024d228e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Shared/Models/FPSWeapon.fbx using Guid(47509307932d1e140a2b4d9024d228e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896142a315f7122bab085ba4bce8b31d') in 0.397133 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactSandEffect.prefab
-  artifactKey: Guid(a475880e7da0e9548aa05cb7933752cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactSandEffect.prefab using Guid(a475880e7da0e9548aa05cb7933752cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ed9098e3c07d631493295607e15343') in 0.018115 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/RibbonSmoke.prefab
-  artifactKey: Guid(4d35711ba17dcd4409264568d9155360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/RibbonSmoke.prefab using Guid(4d35711ba17dcd4409264568d9155360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f52938838134d9bbfb3439c3ff1b443') in 0.056909 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactFleshBigEffect.prefab
-  artifactKey: Guid(e5a3d6da48298a0458c1990f58c27069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactFleshBigEffect.prefab using Guid(e5a3d6da48298a0458c1990f58c27069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0289277245fb4aff16eb0cef97cde7c8') in 0.364267 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/EffectExamples/Shared/PhysicsMaterials/WaterFilledExtinguish.physicMaterial
-  artifactKey: Guid(8e48a96595df5904da1626980936ebf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Shared/PhysicsMaterials/WaterFilledExtinguish.physicMaterial using Guid(8e48a96595df5904da1626980936ebf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6b2f087b6011dc4f0777b51033258b') in 0.007666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/EffectExamples/Blood/Prefabs/BloodStreamEffect.prefab
-  artifactKey: Guid(a3768c8a9d1b90d4bb0eb0e4bdbe730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Blood/Prefabs/BloodStreamEffect.prefab using Guid(a3768c8a9d1b90d4bb0eb0e4bdbe730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7c671fee4695cae561968be77863a5') in 0.024084 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/EffectExamples/WeaponEffects/Materials/MuzzleFlashParticle.mat
-  artifactKey: Guid(527027c8baf2f0540be3104a3ec38a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WeaponEffects/Materials/MuzzleFlashParticle.mat using Guid(527027c8baf2f0540be3104a3ec38a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e0041a36febbaa138e9ee311451cff') in 0.034340 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/EffectExamples/Shared/Materials/MetalSurface.mat
-  artifactKey: Guid(4f477167fc0be5e4dab9a125b37c42ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Shared/Materials/MetalSurface.mat using Guid(4f477167fc0be5e4dab9a125b37c42ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3b3bdcb0518fb6588ed5a43b39f1db') in 0.018361 seconds 
+  Time since last request: 0.000057 seconds.
+  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture3DLerp.compute
+  artifactKey: Guid(31e9175024adfd44aba2530ff9b77494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture3DLerp.compute using Guid(31e9175024adfd44aba2530ff9b77494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b3b5830394f24e16ac7790114161b7') in 0.009557 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000038 seconds.
-  path: Assets/EffectExamples/FireExplosionEffects/Materials/EmbersParticle.mat
-  artifactKey: Guid(776677ab3818fb249adaca05f4e04545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/FireExplosionEffects/Materials/EmbersParticle.mat using Guid(776677ab3818fb249adaca05f4e04545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f17d1176fbe77c9c2309341138df64') in 0.016667 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/EffectExamples/WeaponEffects/Materials/RocketTrailParticle.mat
-  artifactKey: Guid(87220c434b13e684f84b32a5a04cf4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WeaponEffects/Materials/RocketTrailParticle.mat using Guid(87220c434b13e684f84b32a5a04cf4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5ee1fe0c8c20c23e29f6f0f884a336') in 0.234718 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/EffectExamples/WaterEffects/Materials/ImpactSplashParticle.mat
-  artifactKey: Guid(90c3f5183cf0f9d488b3821973c75c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WaterEffects/Materials/ImpactSplashParticle.mat using Guid(90c3f5183cf0f9d488b3821973c75c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3cc26a0e475f890524edd1537889ad') in 0.017525 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/EffectExamples/WeaponEffects/Materials/BulletDecalStone.mat
-  artifactKey: Guid(a29767879f97b364393df3a772628180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WeaponEffects/Materials/BulletDecalStone.mat using Guid(a29767879f97b364393df3a772628180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db96072a2df709979fe23bb0aa3541b7') in 0.017618 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/EffectExamples/WeaponEffects/Materials/BulletFleshDecal.mat
-  artifactKey: Guid(d771645f9ac10d241b18277409d02a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WeaponEffects/Materials/BulletFleshDecal.mat using Guid(d771645f9ac10d241b18277409d02a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648aa7f713184aa4a7007036bc340fd8') in 0.019235 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/EffectExamples/WeaponEffects/Materials/Projectile.mat
-  artifactKey: Guid(a24a209a6bd187d49929d1a6d40a92ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WeaponEffects/Materials/Projectile.mat using Guid(a24a209a6bd187d49929d1a6d40a92ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91726441f12c63cf13926a481a82ed32') in 0.017521 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/EffectExamples/Shared/Materials/Background.mat
-  artifactKey: Guid(0ae8aab4ae40e7741a636cf6e5136a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Shared/Materials/Background.mat using Guid(0ae8aab4ae40e7741a636cf6e5136a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb0ff6ee6aa3ff7da8697985351b6f4') in 0.020146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/EffectExamples/Shared/Prefabs/Extinguish.prefab
-  artifactKey: Guid(ec68cf3d27ad1bf48a4b4d3af84e4ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Shared/Prefabs/Extinguish.prefab using Guid(ec68cf3d27ad1bf48a4b4d3af84e4ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f030dff3c525e2607fe0320231166617') in 0.253076 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactFleshSmallEffect.prefab
-  artifactKey: Guid(83e55d3418297934fab882559d009285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactFleshSmallEffect.prefab using Guid(83e55d3418297934fab882559d009285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e801fbc5e8e30de0dbaa75c08c935fd') in 0.022572 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/EffectExamples/FireExplosionEffects/Materials/PlasmaExplosionParticle.mat
-  artifactKey: Guid(7ff1ab0b724442843965e2dd0f02e969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/FireExplosionEffects/Materials/PlasmaExplosionParticle.mat using Guid(7ff1ab0b724442843965e2dd0f02e969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d230468ab928debb2e106c2c761b18') in 0.201988 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/EffectExamples/Shared/PhysicsMaterials/Character.physicMaterial
-  artifactKey: Guid(2d1b92c8292f3234baa92e29f307a81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Shared/PhysicsMaterials/Character.physicMaterial using Guid(2d1b92c8292f3234baa92e29f307a81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3087470c260c70e2ef0a92108d17b60') in 0.007696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactMetalEffect.prefab
-  artifactKey: Guid(02a509a7fa70ed740ba4197e20c5d32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WeaponEffects/Prefabs/BulletImpactMetalEffect.prefab using Guid(02a509a7fa70ed740ba4197e20c5d32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeab0caac24fdf7d5ec3587c4b99f7be') in 0.297573 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/EffectExamples/WeaponEffects/Prefabs/RocketTrailEffect.prefab
-  artifactKey: Guid(20c0f7e297297fc468f9740f6bb08cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WeaponEffects/Prefabs/RocketTrailEffect.prefab using Guid(20c0f7e297297fc468f9740f6bb08cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217a9299f79caebe8c05dc648b18a333') in 0.035298 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/EffectExamples/Shared/PhysicsMaterials/Metal.physicMaterial
-  artifactKey: Guid(77b2008fc6197f44a82570617d274355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Shared/PhysicsMaterials/Metal.physicMaterial using Guid(77b2008fc6197f44a82570617d274355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1510de6a39cd9c91fb5c4330220255cb') in 0.003225 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/EffectExamples/WeaponEffects/Textures/BloodMist.mat
-  artifactKey: Guid(22bd383795fb6f34b93b51a4caa75781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WeaponEffects/Textures/BloodMist.mat using Guid(22bd383795fb6f34b93b51a4caa75781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0daeccd4d4243a0c63b89933dcefe4d') in 0.017571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/EffectExamples/FireExplosionEffects/Prefabs/FlamesParticleEffect.prefab
-  artifactKey: Guid(3228a22491941734bb83ad691d17fcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/FireExplosionEffects/Prefabs/FlamesParticleEffect.prefab using Guid(3228a22491941734bb83ad691d17fcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b65ae1aca45f99e6e3796de8b44c17') in 0.030136 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/EffectExamples/WeaponEffects/Materials/BulletDecalWood.mat
-  artifactKey: Guid(39babc0a61c17df41bca722640cfc289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WeaponEffects/Materials/BulletDecalWood.mat using Guid(39babc0a61c17df41bca722640cfc289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ff54334e65f6d46a93805e7a76af69') in 0.023218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/EffectExamples/Shared/Materials/DarkDefault.mat
-  artifactKey: Guid(2062b6d0a7a2d4f46b4689198aedadd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Shared/Materials/DarkDefault.mat using Guid(2062b6d0a7a2d4f46b4689198aedadd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807430557590d6c3a4ef592647d83432') in 0.021329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/EffectExamples/Shared/PhysicsMaterials/Wood.physicMaterial
-  artifactKey: Guid(0151b31279cbbe64db23577e9163731a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Shared/PhysicsMaterials/Wood.physicMaterial using Guid(0151b31279cbbe64db23577e9163731a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17a05b497324a03fe5bf1fe90b0f16a') in 0.010580 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/EffectExamples/Shared/Models/Materials/No Name.mat
-  artifactKey: Guid(451ddf5f145f097438c920eb68fc6397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Shared/Models/Materials/No Name.mat using Guid(451ddf5f145f097438c920eb68fc6397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ae10e0d3d03cfd137c4e32a12bd546') in 0.011290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/EffectExamples/Blood/Materials/BloodPoolParticle.mat
-  artifactKey: Guid(95be4df36eca6eb4b821dcab4acd4a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Blood/Materials/BloodPoolParticle.mat using Guid(95be4df36eca6eb4b821dcab4acd4a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff31ed6ae4fbe725f5264bf1f7da9a2b') in 0.023542 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/EffectExamples/Shared/Materials/SandSurface.mat
-  artifactKey: Guid(26bc8648a85c6b041a5d5b00ca61062b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Shared/Materials/SandSurface.mat using Guid(26bc8648a85c6b041a5d5b00ca61062b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35d26bb3518024473aefd25252eac2e') in 0.018250 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.017568 seconds.
-  path: Assets/EffectExamples/Blood/Textures/BloodDropNormals.tif
-  artifactKey: Guid(e2e48048625d63c41a7219b81562326d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Blood/Textures/BloodDropNormals.tif using Guid(e2e48048625d63c41a7219b81562326d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557eabf6847099a8cbdda659f8b59ebb') in 0.036369 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/EffectExamples/WeaponEffects/Textures/BloodStreakAlbedo.tif
-  artifactKey: Guid(07a10375da67ac9429e4694a4e70a774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WeaponEffects/Textures/BloodStreakAlbedo.tif using Guid(07a10375da67ac9429e4694a4e70a774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d12e25fe61c3cffe9d71397c2b9a100') in 0.020650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/EffectExamples/FireExplosionEffects/Textures/FlameRoundParticleSheet.tif
-  artifactKey: Guid(408718fd5f763de42b12f849570ddf58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/FireExplosionEffects/Textures/FlameRoundParticleSheet.tif using Guid(408718fd5f763de42b12f849570ddf58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ee8c5163718bd0e0724ea947bb19ac') in 0.020881 seconds 
+  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut3DBaker.compute
+  artifactKey: Guid(42496b74c071f5749950ca1abe33e945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut3DBaker.compute using Guid(42496b74c071f5749950ca1abe33e945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3564a74017259e508c57a5b1dc89cf66') in 0.009944 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/EffectExamples/WeaponEffects/Textures/BloodSprayAlbedo.tif
-  artifactKey: Guid(3f4abfb4beaba874db09889251c0f146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WeaponEffects/Textures/BloodSprayAlbedo.tif using Guid(3f4abfb4beaba874db09889251c0f146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edca251bc64d1596d28759a49f02bc3') in 0.016612 seconds 
+  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.compute
+  artifactKey: Guid(e1efca7c36fd01840aae0dd10378de5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.compute using Guid(e1efca7c36fd01840aae0dd10378de5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e374f9714a0186e5163286e36d1fb606') in 0.011393 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockAlbedo.tif
-  artifactKey: Guid(15240786ea512f046bf64137f0abe4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockAlbedo.tif using Guid(15240786ea512f046bf64137f0abe4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9841fcee8082823b98940e293ce37ace') in 0.021284 seconds 
+  Time since last request: 0.000040 seconds.
+  path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute
+  artifactKey: Guid(34a460e8a2e66c243a9c12024e5a798d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute using Guid(34a460e8a2e66c243a9c12024e5a798d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fd485495d0516bed4e06768d083673') in 0.009164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.295572 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png
+  artifactKey: Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png using Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa5ddc850fc2d753c40c5e3ef74fece') in 0.078817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-dark.png
+  artifactKey: Guid(289215d22fcafb941b9e25f8609e25b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-dark.png using Guid(289215d22fcafb941b9e25f8609e25b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcadc1b0b23d75b34c1274cc4d3728f6') in 0.031539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-done-light.png
+  artifactKey: Guid(68d404d4616084f449a3bc644c023f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-done-light.png using Guid(68d404d4616084f449a3bc644c023f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4938968c888af52d7d2f36f8e90806d4') in 0.026409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-error-light.png
+  artifactKey: Guid(b08f8cbc53d0bfb45bd2fd1f676d3554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-error-light.png using Guid(b08f8cbc53d0bfb45bd2fd1f676d3554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5b9857f3480b6f0f70ab37ca979784') in 0.024851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-light@2x.png
+  artifactKey: Guid(8478a99d8fb61c94ba938c3034d449c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-light@2x.png using Guid(8478a99d8fb61c94ba938c3034d449c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5b573d75d103f6e7a3c5ef0e2aa777') in 0.022258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-light.png
+  artifactKey: Guid(78f56e873f56d7943aef2a039430732e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-light.png using Guid(78f56e873f56d7943aef2a039430732e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e9ff513a3dc1582681e545934c687b') in 0.020225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-error-light@2x.png
+  artifactKey: Guid(d41e3a51c74c48847a8eb97a319afda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-error-light@2x.png using Guid(d41e3a51c74c48847a8eb97a319afda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba469a77200d267f499c8adfffc11a8') in 0.020909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-done-dark.png
+  artifactKey: Guid(80c31f397a3ab184bae2f0d4b3dc5c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-done-dark.png using Guid(80c31f397a3ab184bae2f0d4b3dc5c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d0793d5a8777be75a2c56c2c081795') in 0.026997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-mine-light.png
+  artifactKey: Guid(2c0bdcbf152ceb64ba9b01cc370a9092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-mine-light.png using Guid(2c0bdcbf152ceb64ba9b01cc370a9092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e7c21db7f35c7b82edd229b55fa15d') in 0.020592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light@2x.png
+  artifactKey: Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light@2x.png using Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ac316dd1e16cb123088cb1a6a5d00c') in 0.021440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light.png
+  artifactKey: Guid(e676ab7aa99535447a763c9f88bf9260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light.png using Guid(e676ab7aa99535447a763c9f88bf9260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2491b0081ee76b59e3108f566b9f674d') in 0.019853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-mine-dark.png
+  artifactKey: Guid(a972d8b163b45d54b89085acf50327e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-mine-dark.png using Guid(a972d8b163b45d54b89085acf50327e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7280d369e71679cd2d903e35d6a02c44') in 0.023937 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockNormals.tif
-  artifactKey: Guid(b7b496609dfcf7d4089ca1e508b14f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockNormals.tif using Guid(b7b496609dfcf7d4089ca1e508b14f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3346abbb1d3c01c7a3d1859482346a7f') in 0.019856 seconds 
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-dark@2x.png
+  artifactKey: Guid(a26232d4d188e4440897131ed223d505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-dark@2x.png using Guid(a26232d4d188e4440897131ed223d505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616018d5511e0dad77c42ee17eed706f') in 0.023717 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleMetalThroughAlbedo.tif
-  artifactKey: Guid(4dcc91061fcec7d40a6d7c381bf1eabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WeaponEffects/Textures/BulletHoleMetalThroughAlbedo.tif using Guid(4dcc91061fcec7d40a6d7c381bf1eabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bab27f867fc2b8a2b10a72494cb3f6a') in 0.020532 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/EffectExamples/WeaponEffects/Textures/FlashParticle.tif
-  artifactKey: Guid(c826d12aca5bdda4c900b00833f6d875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WeaponEffects/Textures/FlashParticle.tif using Guid(c826d12aca5bdda4c900b00833f6d875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f446370ff384690cd6cb96eec24ed7') in 0.017232 seconds 
+  Time since last request: 0.000050 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-incoming-dark.png
+  artifactKey: Guid(4f1f02bee0a5ae24aac00a40a212299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-incoming-dark.png using Guid(4f1f02bee0a5ae24aac00a40a212299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b7ab321708a7af96d1d01261ebe281') in 0.021425 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000035 seconds.
-  path: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockHeight.tif
-  artifactKey: Guid(c948ff4a46d9e134ab96d61acf2022ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WeaponEffects/Textures/BulletHoleRockHeight.tif using Guid(c948ff4a46d9e134ab96d61acf2022ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3c5d3c207a968ab342ffaefd28cfc7') in 0.021555 seconds 
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark.png
+  artifactKey: Guid(8e3ec2dfd58b79842aa78376678a9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark.png using Guid(8e3ec2dfd58b79842aa78376678a9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1407a5391eff6dd96941355bc91f282f') in 0.020331 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/EffectExamples/WaterEffects/Textures/CloudsParticleSheet.tif
-  artifactKey: Guid(f0f137a9e20dd82448c39df561615d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WaterEffects/Textures/CloudsParticleSheet.tif using Guid(f0f137a9e20dd82448c39df561615d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052c1e5f4b168fe27e4c0d0444e971d9') in 0.018875 seconds 
+  Time since last request: 0.000039 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-light@2x.png
+  artifactKey: Guid(2c8a8b796d0907747a9518f9458b2259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-light@2x.png using Guid(2c8a8b796d0907747a9518f9458b2259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde33d65cc6039c1641cab1860f48260') in 0.019893 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/EffectExamples/WeaponEffects/Textures/BloodStreakNormals.tif
-  artifactKey: Guid(4b403858fefaded4bb58c22aa41b8769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WeaponEffects/Textures/BloodStreakNormals.tif using Guid(4b403858fefaded4bb58c22aa41b8769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb821103d6fee436a1d07fbdaa6f995c') in 0.020024 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-incoming-dark@2x.png
+  artifactKey: Guid(a9fa02cdd2d760c43a0e69ba0fa49dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-incoming-dark@2x.png using Guid(a9fa02cdd2d760c43a0e69ba0fa49dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9d97f01dfe4c04f35524505f7c2d1f') in 0.024648 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/EffectExamples/Blood/Textures/BloodSprayNormals.tif
-  artifactKey: Guid(d3d3954ad53568b49b1fda6366f2b5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/Blood/Textures/BloodSprayNormals.tif using Guid(d3d3954ad53568b49b1fda6366f2b5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6dd097045a9afe87cc664b80af9e53') in 0.016040 seconds 
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-dark@2x.png
+  artifactKey: Guid(1a2cea5a396ff5d4a8f740bd5d8726b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-dark@2x.png using Guid(1a2cea5a396ff5d4a8f740bd5d8726b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5235944186922b8fc9076ad7fb7049e1') in 0.020221 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleMetalThroughNormals.tif
-  artifactKey: Guid(b284a0bea151ce444957bb92f6b50ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WeaponEffects/Textures/BulletHoleMetalThroughNormals.tif using Guid(b284a0bea151ce444957bb92f6b50ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121f05b1546ab9fae13f9fc7702430ee') in 0.018960 seconds 
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light.png
+  artifactKey: Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light.png using Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924ba9b7962c28a58ed3be13731f5d51') in 0.019359 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleHeight.tif
-  artifactKey: Guid(5382afe8f6b22e24d9568f8c0be503a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectExamples/WeaponEffects/Textures/FleshBulletHoleHeight.tif using Guid(5382afe8f6b22e24d9568f8c0be503a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f32d1ff7bcc118de98c9cdba697c522') in 0.016960 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 95.262017 seconds.
+  path: Assets/EffectExamples/FireExplosionEffects/Textures/SmokePuffNormalSheet.tif
+  artifactKey: Guid(3bc01580ce4f1834eb3562397607f51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/FireExplosionEffects/Textures/SmokePuffNormalSheet.tif using Guid(3bc01580ce4f1834eb3562397607f51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdff66d897baa8b5a6bb58de10b901cc') in 0.077735 seconds 
